@@ -53,7 +53,7 @@ export const Demo = () => {
           <Button
             disabled={isPending}
             onClick={() => mutate({ message })}
-            className="bg-rose-500 gap-y-1 hover:bg-rose-500"
+            className="bg-rose-500 mt-2 md:mt-0 gap-y-1 hover:bg-rose-500"
             variant="default"
             size="sm"
           >
