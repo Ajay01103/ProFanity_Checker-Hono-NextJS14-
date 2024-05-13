@@ -9,7 +9,7 @@ import { useMutation } from "@tanstack/react-query"
 import { Icons } from "./Icons"
 
 export const Demo = () => {
-  const [message, setMessage] = useState<string>("this is definately not a swear word")
+  const [message, setMessage] = useState<string>("this is definitely not a swear word")
 
   const { data, mutate, isPending, error } = useMutation({
     mutationKey: ["check-profanity"],
@@ -94,8 +94,8 @@ export const Demo = () => {
         ) : null}
       </div>
 
-      <div className="text-sm flex gap-x-2 items-center justify-between ">
-        powered by <Icons.upstash className="w-20" />
+      <div className="text-sm flex gap-x-2 text-slate-700 items-center justify-between ">
+        Powered by <Icons.upstash className="w-20" />
       </div>
     </div>
   )
