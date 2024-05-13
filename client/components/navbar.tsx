@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
 
           <Link
-            href="https://github.com/joschan21/profanity.dev"
+            href="https://github.com/Ajay01103/ProFanity_FrontEnd_NextJS14"
             target="_blank"
             referrerPolicy="no-referrer"
             className={buttonVariants({ variant: "secondary" })}
