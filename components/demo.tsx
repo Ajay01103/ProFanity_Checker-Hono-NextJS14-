@@ -34,7 +34,7 @@ export const Demo = () => {
 
             <div className="h-[20px] w-px bg-zinc-300" />
 
-            <p className="break-all">http://localhost:3000</p>
+            <p className="break-all text-slate-900">http://localhost:3000</p>
           </div>
         </div>
 

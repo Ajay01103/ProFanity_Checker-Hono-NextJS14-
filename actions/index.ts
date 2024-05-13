@@ -12,6 +12,8 @@ type APISuccess = {
   flaggedFor: string[] | undefined
 }
 
+const URL = process.env.API_URL!
+
 export const checkProfanity = async ({ message }: { message: string }) => {
   try {
     if (message.trim().split(/\s+/).length <= 1) {
@@ -25,7 +27,7 @@ export const checkProfanity = async ({ message }: { message: string }) => {
       }
     }
 
-    const res = await fetch("http://127.0.0.1:8787", {
+    const res = await fetch(URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message }),
