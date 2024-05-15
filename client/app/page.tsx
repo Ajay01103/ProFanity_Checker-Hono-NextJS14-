@@ -136,8 +136,8 @@ export default async function Home() {
           <div className="w-full flex flex-col">
             <div className="flex justify-center text-center">
               <h2 className="font-heading text-5xl lg:text-6xl font-bold leading-tight text-balance sm:leading-none tracking-tight">
-                "Hate speech <span className="bg-red-500 text-white font-scary px-3">f@#k!ng</span>{" "}
-                sucks"
+                &quot;Hate speech{" "}
+                <span className="bg-red-500 text-white font-scary px-3">f@#k!ng</span> sucks&quot;
               </h2>
             </div>
             <p className="mx-auto text-slate-700 mt-8 text-center text-[13px] tex-sm max-w-4xl">
