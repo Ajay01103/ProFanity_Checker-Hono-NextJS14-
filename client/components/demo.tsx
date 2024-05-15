@@ -34,7 +34,7 @@ export const Demo = () => {
 
             <div className="h-[20px] w-px bg-zinc-300" />
 
-            {/* <p className="break-all text-slate-900">https://vector-profanity.dev</p> */}
+            <p className="break-all text-slate-900">https://vector-profanity.dev</p>
           </div>
         </div>
 

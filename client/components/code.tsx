@@ -13,7 +13,7 @@ export const Code = ({ code }: { code: string }) => {
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre
           style={style}
-          className={cn(className, "w-fit")}
+          className={cn(className, "overflow-auto w-full")}
         >
           {tokens.map((line, i) => {
             const { key, ...rest } = getLineProps({ line, key: i })
